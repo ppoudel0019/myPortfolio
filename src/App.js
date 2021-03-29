@@ -6,6 +6,10 @@ import Title from './components/title';
 import { Parallax } from "react-parallax";
 import Container from "react-bootstrap/Container";
 import Fade from "react-reveal/Fade";
+import Skills from "./pages/skills/skills";
+
+import Slide from "react-reveal/Slide";
+
 
 const App=()=> {
   return (
@@ -30,8 +34,14 @@ const App=()=> {
           </div>
         </Parallax>
       </div>
-     
       
+      <Container className="container-box rounded">
+        <Slide bottom duration={500}>
+          <hr />
+          <Skills />
+        </Slide>
+      </Container>
+     
     </div>
   );
 }
