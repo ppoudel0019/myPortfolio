@@ -3,7 +3,7 @@ import Carousel from 'react-bootstrap/Carousel'
 import './carousel.css'
 import img1 from '../../images/img5.jpeg'
 import img2 from '../../images/laptop1.webp'
-
+import ScrollDown from "../scrolldown/scrolldown";
 
 const MyCarousel = () => {
     return (
@@ -33,6 +33,7 @@ const MyCarousel = () => {
   </Carousel.Item>
   
 </Carousel>
+<ScrollDown />
             
         </div>
     )
