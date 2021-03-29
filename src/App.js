@@ -1,7 +1,7 @@
 import './App.css';
 import MyNavbar from "./components/navbar/navbar";
 import MyCarousel from './components/carousel/carousel';
-
+import About from './pages/about';
 import Title from './components/title';
 
 const App=()=> {
@@ -11,7 +11,7 @@ const App=()=> {
       
       <Title/>
       <MyNavbar/>
-      
+      <About />
 
       
     </div>
