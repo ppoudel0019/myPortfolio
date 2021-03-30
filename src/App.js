@@ -12,7 +12,7 @@ import Fade from "react-reveal/Fade";
 import Skills from "./pages/skills/skills";
 
 import Slide from "react-reveal/Slide";
-import Projects from './pages/projects/projects';
+
 
 
 const App=()=> {
