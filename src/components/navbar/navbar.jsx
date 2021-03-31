@@ -8,8 +8,8 @@ import './navbar.css'
 const MyNavbar = () => {
     return (
         <>
-  <Navbar fixed="top" collapseOnSelect expand="lg" bg="dark" variant="dark"
-   className="animate-navbar nav-theme justify-content-between">
+  <Navbar fixed="top" collapseOnSelect expand="lg"  variant="dark"
+   className=" nav-theme justify-content-between">
 
   <Navbar.Toggle aria-controls="responsive-navbar-nav" />
   <Navbar.Collapse id="responsive-navbar-nav">
@@ -20,9 +20,7 @@ const MyNavbar = () => {
     </Nav>
     <Nav>
       <Nav.Link href="#projects">Projects</Nav.Link>
-      <Nav.Link eventKey={2} href="#memes">
-        Contact
-      </Nav.Link>
+      <Nav.Link href="#contact">Contact</Nav.Link>
     </Nav>
   </Navbar.Collapse>
 </Navbar>
