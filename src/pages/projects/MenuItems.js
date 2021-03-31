@@ -2,42 +2,32 @@ import React from 'react'
 import Button from "react-bootstrap/Button";
 import Accordion from "react-bootstrap/Accordion";
 import Card from "react-bootstrap/Card";
+import Col from 'react-bootstrap/Col'
 import Image from "react-bootstrap/Image";
 import './projects.css'
 
 function MenuItems({menuItem}) {
     return (
-  <div>
-            {
-                menuItem.map((item)=>{
-                    return <div className="portfolio" key={item.id}>
-                        <div className="image-style1">
-                        <Accordion>
-                  <Card>
-                     
-                            <Image className="profile justify-content-end" alt="project" src={item.image} thumbnail fluid />
-                        
+  <div className="projects">{
+    menuItem.map((item)=>{
+            return   <div className="project" key={item.id}>
+                <Card style={{ width: "18rem" }}>
+                     <Image className="profile justify-content-end" alt="project" src={item.image} thumbnail fluid />
                             <ul className="image-style1">
-                                
-                 
-                                    <Button href={item.link1}>{item.icon1}</Button>
-                                    <Button href={item.link2}>{item.icon2}</Button>
+                                    <Button variant="dark" href={item.link1}>{item.icon1}</Button>
+                                    <Button variant="dark"href={item.link2}>{item.icon2}</Button>
                                 
                             </ul>
                       
-                        <h5>
-                            {item.title}
-                        </h5>
-                        <div className="d-flex justify-content-between flex-column mt-1">
+                        <h5> {item.title}  </h5>
                
+               <Accordion>
                     <Accordion.Toggle
                       as={Card.Header}
                       eventKey="0"
-                      className="p-2 text-center accordian-main"
-                    >
-                    <Button >Project Details</Button>
+                      className="p-2 text-center accordian-main">
+                    <Button variant="dark" >Project Details</Button>
                     </Accordion.Toggle>
-
                     <Accordion.Collapse eventKey="0" className="text-left">
                       <Card.Body>
                       <strong>Description:</strong> {item.title}
@@ -45,13 +35,10 @@ function MenuItems({menuItem}) {
                       <strong>Tech used:</strong>    
                       </Card.Body>
                     </Accordion.Collapse>
-                    </div>
+                    </Accordion>
                   </Card>
-                </Accordion>
-               
-                </div>
-                </div>
-           
+
+               </div>
                 })
             }
         </div>

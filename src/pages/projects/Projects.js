@@ -26,15 +26,11 @@ function PortfoliosPage() {
 
     return (
         <div id="projects">
-        <div className="PortfolioPage">
+        <div className="Portfolio-page">
             <h1 className="pt-3 text-center font-details pb-3">Projects</h1>
-            <div className="portfolios-data">
                 <Categories filter={filter} categories={categories} />
                 <MenuItems menuItem={menuItems} />
             </div>
-            </div>
-
-
   </div>
     )
 }
