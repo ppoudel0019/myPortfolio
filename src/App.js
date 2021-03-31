@@ -1,6 +1,4 @@
 import './App.css';
-
-
 import MyNavbar from "./components/navbar/navbar";
 import MyCarousel from './components/carousel/carousel';
 import About from './pages/about';
@@ -10,7 +8,7 @@ import { Parallax } from "react-parallax";
 import Container from "react-bootstrap/Container";
 import Fade from "react-reveal/Fade";
 import Skills from "./pages/skills/skills";
-
+import Projects from "./pages/projects/Projects";
 import Slide from "react-reveal/Slide";
 
 
@@ -41,7 +39,7 @@ const App=()=> {
         <Container className="container-box rounded">
           <Fade duration={500}>
             <hr />
-
+            <Projects />
             
           </Fade>
         </Container>
