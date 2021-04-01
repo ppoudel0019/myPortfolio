@@ -1,7 +1,8 @@
 import './App.css';
 import MyNavbar from "./components/navbar/navbar";
+import Footer from "./components/footer/footer";
 import MyCarousel from './components/carousel/carousel';
-import About from './pages/about';
+import About from './pages/about/about';
 import Contact from './pages/contact/contact';
 import Title from './components/title';
 import { Parallax } from "react-parallax";
@@ -17,12 +18,12 @@ const App=()=> {
   return (
     <div className="App" style={{position:"relative"}}>
       <MyCarousel/>
-      <Title/>
+   <Title />
       <MyNavbar/>
       <div>
         <Parallax
           blur={{ min: -30, max: 30 }}
-          bgImage={require("./images/laptop1.webp")}
+          bgImage={require("./images/background.jpg")}
           bgImageAlt=""
           strength={-200}
         >
@@ -39,8 +40,7 @@ const App=()=> {
         <Container className="container-box rounded">
           <Fade duration={500}>
             <hr />
-            <Projects />
-            
+            <Skills />
           </Fade>
         </Container>
       </div>
@@ -49,7 +49,7 @@ const App=()=> {
       <Container className="container-box rounded">
         <Slide bottom duration={500}>
           <hr />
-          <Skills />
+         <Projects />
         </Slide>
       </Container>
       <Container className="container-box rounded">
@@ -58,6 +58,7 @@ const App=()=> {
           <Contact />
         </Fade>
       </Container>
+      <Footer />
      
     </div>
   );

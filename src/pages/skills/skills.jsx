@@ -11,14 +11,13 @@ import "./skills.css";
 const Skills = () => {
   return (
     <div className="pt-3 pb-3" id="skills">
-      <h1 className="text-center font-details-b pb-4">TECH SKILLS</h1>
+    <h1 className="pt-3 text-center font-details pb-3">Tech Skills</h1>
       <CardDeck>
         <Row className="d-flex justify-content-around">
-          {/* Frontend */}
           <Col md={4}>
             <Card className="focus mt-2 mb-2">
               <Card.Body>
-                {/* Frontend */}
+             
                 <Card.Title className="text-center  card-title">Frontend</Card.Title>
                 <hr />
                 <Card.Text className="card-text d-flex justify-content-start flex-column">
@@ -54,7 +53,7 @@ const Skills = () => {
             
           </Col>
 
-          {/* Programming Languages */}
+         
           <Col md={4}>
             <Card className="focus mt-2 mb-2">
               <Card.Body>

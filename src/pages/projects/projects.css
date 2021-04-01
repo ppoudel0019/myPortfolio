@@ -17,10 +17,13 @@
   }
 
   .projects{
-   
+
       display: flex;
       flex-wrap: wrap;
       align-items:flex-start;
+      
+      object-fit: cover;
+
   }
 
   .project{

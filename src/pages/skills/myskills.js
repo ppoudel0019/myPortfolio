@@ -13,7 +13,6 @@ import FLASK from "../../images/skills/flask.svg";
 import MONGODB from "../../images/skills/mongodb.svg";
 import MSSQL from "../../images/skills/mssql.svg";
 import GIT from "../../images/skills/git-icon.svg";
-import GITHUB_PAGES from "../../images/skills/github.svg";
 import JAVASCRIPT from "../../images/skills/javascript.svg";
 import PYTHON from "../../images/skills/python.svg";
 import PHP from "../../images/skills/PHP-logo.svg";
