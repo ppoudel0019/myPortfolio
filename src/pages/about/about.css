@@ -5,6 +5,8 @@
   
   .profile {
     max-width: 18em;
+    min-width: 10em;
+    margin:auto;
   }
   
   .my-details {
