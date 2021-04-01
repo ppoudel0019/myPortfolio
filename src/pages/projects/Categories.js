@@ -1,4 +1,5 @@
 import React from 'react';
+import './projects.css'
 import Button from "react-bootstrap/Button";
 
 function Categories({filter, categories}) {
@@ -6,7 +7,7 @@ function Categories({filter, categories}) {
         <div className="projects">
             {
                 categories.map((cat, i)=>{
-                    return <Button className="m-2" variant="outline-dark" onClick={()=> filter(cat)} key={i}>{cat}</Button>
+                    return <div className="category-style"> <Button className="m-2" variant="light" onClick={()=> filter(cat)} key={i}>{cat}</Button></div>
                 })
             }
         </div>

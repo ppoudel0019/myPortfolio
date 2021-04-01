@@ -1,7 +1,7 @@
 import React from 'react'
 import Carousel from 'react-bootstrap/Carousel'
 import './carousel.css'
-import img1 from '../../images/background5.JPG'
+import img1 from '../../images/img5.jpeg'
 
 import ScrollDown from "../scrolldown/scrolldown";
 

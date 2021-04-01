@@ -24,7 +24,6 @@ function PortfoliosPage() {
 
     return (
         <div id="projects" >
-       
         <div className="Portfolio-page" style={{ backgroundImage:img1}} >
             <h1 className="pt-3 text-center font-details-b pb-3">Projects</h1>
                 <Categories filter={filter} categories={categories} />

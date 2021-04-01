@@ -32,9 +32,9 @@ function MenuItems({menuItem}) {
                     </Accordion.Toggle>
                     <Accordion.Collapse eventKey="0" className="text-left">
                       <Card.Body>
-                      <strong>Description:</strong> {item.title}
+                      <strong>Description:</strong> {item.description}
                       <br />
-                      <strong>Tech used:</strong>    
+                      <strong>Tech used:</strong>   {item.techused} 
                       </Card.Body>
                     </Accordion.Collapse>
                     </Accordion>

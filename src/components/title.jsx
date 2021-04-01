@@ -7,10 +7,12 @@ const MyTitleMessage = styled.h1`
   width: 100%;
   top: 22rem;
   z-index: 1;
-  margin-top: -120px;
+  margin-top: -170px;
   text-align: center;
+  background: url("../../images/img5.jpeg")
   strong {
     font-size: 1.20em;
+
   }
   div {
     color: ${props => props.theme.textColor};

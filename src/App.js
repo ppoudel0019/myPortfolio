@@ -17,7 +17,7 @@ import Slide from "react-reveal/Slide";
 const App=()=> {
   return (
     <div className="App" style={{position:"relative"}}>
-      <MyCarousel/>
+ <MyCarousel/>
    <Title />
       <MyNavbar/>
       <div>
