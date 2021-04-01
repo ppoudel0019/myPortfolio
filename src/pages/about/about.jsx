@@ -5,7 +5,7 @@ import Col from "react-bootstrap/Col";
 import Image from "react-bootstrap/Image";
 import MyImage from "../../images/me.jpg";
 import Button from "react-bootstrap/Button";
-
+import "./about.css"
 
 const About = () => {
     return (
@@ -16,7 +16,7 @@ const About = () => {
                 <Row className="pt-3 pb-5 align-items-center">
                     <Col xs={10} md={6}>
                         <Row className="justify-content-center mb-2 mr-2 ">
-                        <Image className="profile justify-content-end" alt="profile" src={MyImage} thumbnail fluid />
+                        <Image className="profile " alt="profile" src={MyImage} thumbnail fluid />
                         </Row>
                     </Col>
                     <Col xs={12} md={6}>

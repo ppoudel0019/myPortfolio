@@ -6,6 +6,7 @@
   .profile {
     max-width: 18em;
     min-width: 10em;
+    max-height: 20em;
     margin:auto;
   }
   
