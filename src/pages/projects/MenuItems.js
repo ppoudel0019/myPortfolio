@@ -13,7 +13,7 @@ function MenuItems({menuItem}) {
             return   <div className="project" key={item.id}>
                 <Card style={{width: "18rem"}} >
              
-                     <Image className="profile justify-content-end" alt="project" src={item.image} thumbnail fluid />
+                     <Image className="image-style2" alt="project" src={item.image} thumbnail fluid />
                      <h5  className=" text-center"> {item.title}  </h5>
                             <div className="image-style1">
                                  <div>  <Button variant="dark" href={item.link1}>{item.icon1}</Button></div>    

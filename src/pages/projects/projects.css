@@ -4,10 +4,19 @@
     color: #fff;
     display: flex;
   }
-  
+  .image-style2 {
+    display: flex;
+    flex-wrap: wrap;
+    align-items:flex-start;
+    gap: 12px;
+   margin:auto;
+    padding: 3px; 
+    width: 150em;
+   height: 10em;
+ 
+  }
   
   .image-style1 {
- 
     display: flex;
     flex-wrap: wrap;
     align-items:flex-start;
