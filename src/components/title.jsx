@@ -9,6 +9,7 @@ const MyTitleMessage = styled.h1`
   z-index: 1;
   margin-top: -170px;
   text-align: center;
+  font-family: 'Tomorrow', sans-serif;
   background: url("../../images/img5.jpeg")
   strong {
     font-size: 1.20em;
